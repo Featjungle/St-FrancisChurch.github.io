@@ -15,7 +15,7 @@ body {
 }
 
 header {
-    padding: 20px 0;
+    padding: 1.7% 0;
     text-align: center;
     background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
 }
@@ -24,7 +24,7 @@ header nav ul {
     list-style: none;
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 1.7% ;
 }
 
 header nav ul li a {
@@ -34,13 +34,13 @@ header nav ul li a {
 }
 
 .banner {
-    padding: 50px;
+    padding: 4%;
     backdrop-filter: brightness(0.8); /* Ensures text stands out against background */
 }
 
 .banner h1 {
     font-size: 2.5rem;
-    margin-bottom: 10px;
+    margin-bottom: 0.833%;
 }
 
 .banner p {
@@ -48,85 +48,85 @@ header nav ul li a {
 }
 
 section {
-    padding: 40px 20px;
+    padding: 3.33% 1.7%;
     background-color: rgba(0, 0, 0, 0.6); /* Transparent background for better readability */
-    margin: 20px;
-    border-radius: 8px;
+    margin: 1.7%;
+    border-radius: 0.66%;
 }
 
 h2 {
     font-size: 2rem;
-    margin-bottom: 20px;
+    margin-bottom: 1.7%;
     text-align: center;
 }
 
 p {
-    margin-bottom: 20px;
+    margin-bottom: 1.7%;
     text-align: center;
 }
 
 .about-grid, .music-grid {
     display: flex;
     flex :wrap;
-    gap: 20px;
+    gap: 1.7%;
     justify-content: center;
 }
 
 .about-grid div, .music-grid div {
     flex: 1;
-    min-width: 300px;
+    min-width: 25%;
     padding: 2rem;
     background-color: rgba(255, 255, 255, 0.8);
     color: black;
-    border-radius: 8px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 0.66%;
+    box-shadow: 0 0.166% 0.833% rgba(0, 0, 0, 0.1);
 }
 
 .events-grid div {
     flex: 1 1 calc(50% - 40px); /* Each box will take 50% of the width minus gap space */
-    min-width: 300px; /* Minimum width of each box */
-    padding: 20px;
+    min-width: 25%; /* Minimum width of each box */
+    padding: 1.7%;
     background-color: rgba(255, 255, 255, 0.8);
     color: black;
-    border-radius: 8px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 0.66%;
+    box-shadow: 0 0.166% 0.833% rgba(0, 0, 0, 0.1);
 }
 .events-grid {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between; /* Ensures even spacing between rows */
-    gap: 20px; /* Gap between items */
-    padding: 20px;
+    gap: 1.7%; /* Gap between items */
+    padding: 1.7%;
 }
 
 .events-grid div {
     flex: 1 1 calc(33.333% - 40px); /* Makes each box take one-third of the row with spacing */
-    margin: 10px;
+    margin: 0.833%;
     background-color: rgba(255, 255, 255, 0.8);
-    border-radius: 10px;
-    padding: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 0.833%;
+    padding: 1.7%;
+    box-shadow: 0 0.33% 0.66% rgba(0, 0, 0, 0.1);
 }
 .events-grid {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between; /* Ensures even spacing between rows */
-    gap: 20px; /* Gap between items */
-    padding: 20px;
+    gap: 1.7%; /* Gap between items */
+    padding: 1.7%;
 }
 
 .events-grid div {
-    flex: 1 1 calc(33.333% - 40px); /* Makes each box take one-third of the row with spacing */
-    margin: 10px;
+    flex: 1 1 calc(33.333% - 3.33%); /* Makes each box take one-third of the row with spacing */
+    margin: 0.833%;
     background-color: rgba(255, 255, 255, 0.8);
-    border-radius: 10px;
-    padding: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 0.833%;
+    padding: 1.7%;
+    box-shadow: 0 0.33% 0.66% rgba(0, 0, 0, 0.1);
 }
 
 
 /* Media query for smaller screens */
-@media (max-width: 768px) {
+@media (max-width: 50%) {
     .events-grid div {
         flex: 1 1 100%; /* Make boxes stack vertically on smaller screens */
     }
@@ -137,26 +137,26 @@ p {
 footer {
     background-color: #800000;
     color: white;
-    padding: 50px 0;
+    padding: 4% 0;
 }
 
 .footer-container {
     display: flex;
     justify-content: space-around;
     align-items: flex-start;
-    max-width: 1200px;
+    max-width: 100%;
     margin: 0 auto;
     flex-wrap: wrap;
 }
 
 .footer-container div {
-    margin: 20px;
-    max-width: 250px;
+    margin: 1.7%;
+    max-width: 0.48%;
 }
 
 .footer-container h3 {
     font-size: 1.5em;
-    margin-bottom: 15px;
+    margin-bottom: 0.8%;
     color: #d4af37;
 }
 
@@ -178,18 +178,18 @@ footer {
 /* Map Section Styles */
 .map-section {
     text-align: center;
-    margin: 50px 0;
+    margin: 4% 0;
 }
 
 .map-container {
     margin: 0 auto;
     max-width: 600px;
-    height: 450px;
+    height: 37.5%;
     border: 1px solid #ddd;
 }
 
 .map-section h2 {
     color: #800000;
     font-size: 2em;
-    margin-bottom: 20px;
+    margin-bottom: 1.7%;
 }
